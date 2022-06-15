@@ -12,7 +12,7 @@ These files have been tested and used to generate a live ELK deployment on Azure
   - ![Ansible.cfg](https://github.com/eddie12frank/Frank/blob/main/Ansible/ansible.cfg.txt)
   - ![Hosts.txt](https://github.com/eddie12frank/Frank/blob/main/Ansible/hosts.txt)
   - ![Install Elk.txt](https://github.com/eddie12frank/Frank/blob/main/Ansible/filebeat-config.yml.txt)
-  - ![Filebeat.config]("C:\Users\frank\Frank\Ansible\filebeat-config.yml.txt")
+  - ![Filebeat.config](https://github.com/eddie12frank/Frank/blob/main/Ansible/filebeat-config.yml.txt)
   - ![Filebeat-playbook](https://github.com/eddie12frank/Frank/blob/main/Ansible/filebeat-playbook.yml.txt)
   - ![Metricbeat.config](https://github.com/eddie12frank/Frank/blob/main/Ansible/metricbeat-config.yml.txt)
   - ![Metricbeat-playbook](https://github.com/eddie12frank/Frank/blob/main/Ansible/metricbeat-playbook.yml.txt)
