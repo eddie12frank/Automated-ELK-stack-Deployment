@@ -106,7 +106,7 @@ SSH into the control node and follow the steps below:
 
 - Update the hosts file to include the ELK Server.
 	- nano /etc/ansible/hosts
-![Update Host File]("C:\Users\frank\Frank\Images\Update Host File.png")
+![Update Host File](C:\Users\frank\Frank\Images\Update Host File.png)
 	
 - Run the playbook, and navigate to kibana to check that the installation worked as expected.
 	- cd /etc/ansible
