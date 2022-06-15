@@ -116,6 +116,6 @@ SSH into the control node and follow the steps below:
 	- ansible-playbook install_filebeat.yml 
 	- ansible-playbook install_metricbeat.yml 
 
--Check Kibana to verify installation succeeded
+- Check Kibana to verify installation succeeded
 	- website: http://20.230.101.99:5601/app/kibana
 
