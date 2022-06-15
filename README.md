@@ -100,7 +100,7 @@ In order to use the playbook, you will need to have an Ansible control node alre
 SSH into the control node and follow the steps below:
 - Copy the playbook files to Ansible Control Node.
 	- mkdir files within /etc/ansible
-	- git clone https://github.com/eddie12frank/Frank.git
+	- git clone https://github.com/eddie12frank/Frank/blob/main/Ansible/install-elk.yml.txt/.git
 	- cp filebeat-playbook.yml.txt /etc/ansible/files
 	- cp metricbeat-playbook.yml.txt /etc/ansible/files
 
