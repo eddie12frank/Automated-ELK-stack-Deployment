@@ -1,3 +1,4 @@
+
 # Frank
 CS bootcamp
 ## Automated ELK Stack Deployment
@@ -117,6 +118,4 @@ SSH into the control node and follow the steps below:
 
 -Check Kibana to verify installation succeeded
 	- website: http://20.230.101.99:5601/app/kibana
-
-
 
