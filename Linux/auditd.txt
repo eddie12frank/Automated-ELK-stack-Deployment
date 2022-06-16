@@ -1,0 +1,22 @@
+sudo cat /etc/audit/rules.d/audit.rules
+set rules for /etc/shadow, /etc/passwd and /var/log/auth.log
+
+
+## First rule - delete all
+-D
+
+## Increase the buffers to survive stress events.
+## Make this bigger for busy systems
+-b 8192
+
+## This determine how long to wait in burst of events
+--backlog_wait_time 0
+
+## Set failure mode to syslog
+-f 1
+
+## monitor shadow and passwd for any modifications or deletions
+-w /etc/shadow -p wra -k hashpass_audit
+-w /etc/passwd -p wra -k userpass_audit
+-w /var/log/auth.log -p wra -k authlog_audit
+-w /var/log/cron -p wra
