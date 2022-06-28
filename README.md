@@ -59,11 +59,11 @@ A summary of the access policies in place can be found in the table below.
 
 | Name                 | Publicly Accessible | Allowed IP Addresses |
 |----------------------|---------------------|----------------------|
-| Jump Box Provisioner | Yes                 | 63.124.141.112       |
+| Jump Box Provisioner | Yes                 | local admin IP       |
 | Web-1                | No                  | 10.0.0.4             |
 | Web-2                | No                  | 10.0.0.4             |
 | Web-3                | No                  | 10.0.0.4             |
-| ElkServer            | Yes                 | 63.124.141.112       |
+| ElkServer            | Yes                 | local admin IP       |
 
 ### Elk Configuration
 
